@@ -20,7 +20,7 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
             Get in Touch
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">
-            We're here to answer your questions and help you start your child's AI learning journey
+            We&apos;re here to answer your questions and help you start your child&apos;s AI learning journey
           </p>
         </div>
       </section>
@@ -182,7 +182,7 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
                     <p className="text-gray-600">hello@kcl-ai.co.uk</p>
-                    <p className="text-sm text-gray-500 mt-1">We'll respond within 24 hours</p>
+                    <p className="text-sm text-gray-500 mt-1">We&apos;ll respond within 24 hours
                   </div>
                 </div>
 
