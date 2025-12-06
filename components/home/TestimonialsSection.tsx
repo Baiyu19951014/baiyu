@@ -62,7 +62,7 @@ export default function TestimonialsSection() {
               </div>
 
               <p className="text-gray-700 mb-6 leading-relaxed italic">
-                &ldquo;{testimonial.quote}&rdquo;
+                &quot;{testimonial.quote}&quot;
               </p>
 
               <div className="flex items-center">

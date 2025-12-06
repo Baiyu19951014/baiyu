@@ -40,7 +40,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
                 At KCL (KaiChuangLi), our mission is to unlock the creative potential in every young mind through comprehensive AI education. We believe that every child deserves access to future-ready skills that will empower them to thrive in an AI-driven world.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                We aim to cultivate <span className="font-bold text-primary-600">100 million AI talents</span> worldwide, achieving our vision of &ldquo;One Student = Ten Thousand Capabilities&rdquo; - where mastery of AI amplifies each individual&apos;s potential exponentially.
+                We aim to cultivate <span className="font-bold text-primary-600">100 million AI talents</span> worldwide, achieving our vision of &quot;One Student = Ten Thousand Capabilities&quot; - where mastery of AI amplifies each individual potential exponentially.
               </p>
             </div>
             <div className="bg-gradient-to-br from-primary-100 to-purple-100 rounded-2xl p-12 text-center">
@@ -65,13 +65,13 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
                 KCL was founded with a simple but powerful belief: in an age where artificial intelligence is transforming every aspect of our lives, children should not just be consumers of technology&mdash;they should be creators, innovators, and leaders.
               </p>
               <p className="text-lg leading-relaxed mb-6">
-                We recognized that traditional education wasn&apos;t preparing young people for this new reality. While AI tools were becoming ubiquitous, there was a critical gap in helping children develop both the technical skills and creative mindset needed to harness these tools effectively.
+                We recognized that traditional education was not preparing young people for this new reality. While AI tools were becoming ubiquitous, there was a critical gap in helping children develop both the technical skills and creative mindset needed to harness these tools effectively.
               </p>
               <p className="text-lg leading-relaxed mb-6">
                 Starting with our first learning centre, we developed a unique 6-level curriculum that grows with students from age 4 to 18. Our approach combines project-based learning with ethical AI education, ensuring students not only understand how AI works but also how to use it responsibly to make a positive impact.
               </p>
               <p className="text-lg leading-relaxed">
-                Today, with learning centres across the UK and a growing global presence, we&apos;re proud to serve over 10,000 students and counting. Every day, we see young minds discovering their creative potential and building the skills they&apos;ll need to shape tomorrow&apos;s world.
+                Today, with learning centres across the UK and a growing global presence, we are proud to serve over 10,000 students and counting. Every day, we see young minds discovering their creative potential and building the skills they will need to shape tomorrow world.
               </p>
             </div>
           </div>
