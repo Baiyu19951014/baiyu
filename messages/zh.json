@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "aboutUs": "关于我们",
+    "curriculum": "课程体系",
+    "learningCentres": "学习中心",
+    "studentLife": "学生生活",
+    "admissions": "申请入学",
+    "parents": "家长专区",
+    "blog": "博客",
+    "contact": "联系我们",
+    "bookTrial": "预约试听课",
+    "parentLogin": "家长登录"
+  },
+  "hero": {
+    "title": "开启孩子的创造潜能，拥抱AI教育",
+    "subtitle": "KCL为4-18岁学生提供世界级AI课程，线上线下混合教学，培养下一代创新者",
+    "bookTrial": "预约免费试听课",
+    "exploreCurriculum": "探索课程体系"
+  },
+  "whyKCL": {
+    "title": "为什么选择KCL？",
+    "progressiveCurriculum": {
+      "title": "渐进式AI课程",
+      "description": "从Pre-Level 0到Level 5的6级结构化课程，为4-18岁学生设计，提供适龄挑战"
+    },
+    "expertInstructors": {
+      "title": "专业导师团队",
+      "description": "经过认证的AI教育专家，精通项目制学习和儿童发展"
+    },
+    "hybridLearning": {
+      "title": "混合学习模式",
+      "description": "英国学习中心的优质面授课程，辅以在线资源和全天候支持"
+    },
+    "futureReady": {
+      "title": "面向未来的技能",
+      "description": "通过创造力、批判性思维和技术掌握，为AI驱动的世界做好准备"
+    }
+  },
+  "learningJourney": {
+    "title": "孩子的AI学习之旅",
+    "preLevel0": {
+      "age": "4-6岁",
+      "title": "AI认知与数字素养",
+      "description": "通过故事、游戏和创意活动介绍AI概念"
+    },
+    "level1": {
+      "age": "7-9岁",
+      "title": "AI基础与编程入门",
+      "description": "建立计算思维基础，学习简单AI工具"
+    },
+    "level2": {
+      "age": "10-12岁",
+      "title": "AI工具与创意应用",
+      "description": "通过图像生成、聊天机器人等探索AI创造力"
+    },
+    "level3": {
+      "age": "13-14岁",
+      "title": "机器学习基础",
+      "description": "理解机器如何学习，创建智能应用"
+    },
+    "level4": {
+      "age": "15-16岁",
+      "title": "高级AI开发",
+      "description": "深度学习、神经网络和实际AI实现"
+    },
+    "level5": {
+      "age": "17-18岁",
+      "title": "AI创新与实战项目",
+      "description": "用AI解决方案应对真实挑战的顶点项目"
+    },
+    "learnMore": "了解更多"
+  },
+  "howItWorks": {
+    "title": "KCL如何运作",
+    "step1": {
+      "title": "免费评估",
+      "description": "通过免费咨询评估孩子当前的技能和兴趣"
+    },
+    "step2": {
+      "title": "个性化学习计划",
+      "description": "根据评估结果匹配适当的级别和学习风格"
+    },
+    "step3": {
+      "title": "互动课堂",
+      "description": "在我们的学习中心每周面授课程，动手实践项目"
+    },
+    "step4": {
+      "title": "在线支持",
+      "description": "通过在线平台访问资源、练习项目和导师指导"
+    },
+    "step5": {
+      "title": "作品集建设",
+      "description": "展示项目、获得证书，全程跟踪进度"
+    },
+    "getStarted": "立即开始"
+  },
+  "centres": {
+    "title": "找到您附近的KCL学习中心",
+    "viewCentre": "查看中心",
+    "bookTour": "预约参观",
+    "viewAll": "查看所有中心"
+  },
+  "studentShowcase": {
+    "title": "学生优秀作品",
+    "age": "年龄",
+    "exploreMore": "探索更多项目"
+  },
+  "testimonials": {
+    "title": "家长评价",
+    "testimonial1": {
+      "quote": "自从加入KCL，我女儿对科技的信心飙升。她现在正在创建自己的AI项目，并谈论成为AI工程师！",
+      "author": "Sarah M., 伦敦",
+      "role": "Level 2学生家长"
+    },
+    "testimonial2": {
+      "quote": "老师们太棒了。他们让复杂的AI概念变得易于理解且有趣。对我儿子教育的最佳投资。",
+      "author": "James T., 曼彻斯特",
+      "role": "Level 3学生家长"
+    },
+    "testimonial3": {
+      "quote": "KCL不仅教编程——他们教创造力和解决问题。我的孩子对世界的思考方式不同了。",
+      "author": "Priya S., 伯明翰",
+      "role": "Level 1学生家长"
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "q1": {
+      "question": "孩子多大可以开始学习？",
+      "answer": "我们接受从4岁（Pre-Level 0）到18岁（Level 5）的学生。每个级别都为特定年龄组和技能水平精心设计。"
+    },
+    "q2": {
+      "question": "需要编程经验吗？",
+      "answer": "不需要！我们的课程从基础开始，循序渐进。我们有适合完全初学者到高级学生的课程级别。"
+    },
+    "q3": {
+      "question": "上课形式是怎样的？",
+      "answer": "主要在我们的中心进行小班面授（最多12名学生），确保个性化关注。课程配有在线资源补充。"
+    },
+    "q4": {
+      "question": "费用是多少？",
+      "answer": "我们的学期课程根据级别不同，从每学期£399到£699不等。请联系我们了解详细定价和可用折扣。"
+    },
+    "viewAllFAQs": "查看所有常见问题"
+  },
+  "cta": {
+    "title": "准备好开始孩子的AI之旅了吗？",
+    "subtitle": "加入成千上万已经在KCL学习的学生",
+    "bookTrial": "预约免费试听课",
+    "downloadGuide": "下载课程指南",
+    "disclaimer": "无需承诺。免费体验真实的KCL课程。"
+  },
+  "latestNews": {
+    "title": "KCL最新动态",
+    "readMore": "阅读更多",
+    "visitBlog": "访问我们的博客"
+  },
+  "footer": {
+    "aboutKCL": "关于KCL",
+    "programmes": "课程项目",
+    "admissions": "申请入学",
+    "resources": "资源",
+    "contact": "联系方式",
+    "ourStory": "我们的故事",
+    "philosophy": "教育理念",
+    "team": "团队介绍",
+    "careers": "加入我们",
+    "news": "新闻与媒体",
+    "courseOverview": "课程总览",
+    "sampleLessons": "示范课程",
+    "howToEnrol": "申请流程",
+    "tuitionFees": "学费标准",
+    "openDays": "开放日",
+    "faqs": "常见问题",
+    "parentGuide": "家长指南",
+    "studentPortal": "学生门户",
+    "learningResources": "学习资源",
+    "community": "社区",
+    "findCentre": "查找中心",
+    "contactForm": "联系表单",
+    "support": "支持",
+    "partnerships": "合作伙伴",
+    "copyright": "© 2025 KCL（开创力）。保留所有权利。",
+    "privacyPolicy": "隐私政策",
+    "termsOfUse": "使用条款",
+    "cookiePolicy": "Cookie政策",
+    "sitemap": "网站地图"
+  }
+}
+
+

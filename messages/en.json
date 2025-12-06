@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "aboutUs": "About Us",
+    "curriculum": "Curriculum",
+    "learningCentres": "Learning Centres",
+    "studentLife": "Student Life",
+    "admissions": "Admissions",
+    "parents": "Parents",
+    "blog": "Blog",
+    "contact": "Contact",
+    "bookTrial": "Book a Free Trial",
+    "parentLogin": "Parent Login"
+  },
+  "hero": {
+    "title": "Unlock Your Child's Creative Potential with AI Education",
+    "subtitle": "KCL provides world-class AI courses for ages 4-18, combining online and in-person learning to prepare the next generation of innovators",
+    "bookTrial": "Book a Free Trial Class",
+    "exploreCurriculum": "Explore Our Curriculum"
+  },
+  "whyKCL": {
+    "title": "Why Choose KCL?",
+    "progressiveCurriculum": {
+      "title": "Progressive AI Curriculum",
+      "description": "6-level structured programme from Pre-Level 0 to Level 5, designed for ages 4-18 with age-appropriate challenges"
+    },
+    "expertInstructors": {
+      "title": "Expert Instructors",
+      "description": "Certified AI education specialists trained in project-based learning and child development"
+    },
+    "hybridLearning": {
+      "title": "Hybrid Learning Model",
+      "description": "Premium in-person classes at our UK centres, complemented by online resources and 24/7 support"
+    },
+    "futureReady": {
+      "title": "Future-Ready Skills",
+      "description": "Preparing students for the AI-driven world with creativity, critical thinking, and technical mastery"
+    }
+  },
+  "learningJourney": {
+    "title": "Your Child's AI Learning Journey",
+    "preLevel0": {
+      "age": "Ages 4-6",
+      "title": "AI Awareness & Digital Literacy",
+      "description": "Introduction to AI concepts through stories, games, and creative activities"
+    },
+    "level1": {
+      "age": "Ages 7-9",
+      "title": "Fundamentals of AI & Coding Basics",
+      "description": "Building foundation in computational thinking and simple AI tools"
+    },
+    "level2": {
+      "age": "Ages 10-12",
+      "title": "AI Tools & Creative Applications",
+      "description": "Exploring AI-powered creativity through image generation, chatbots, and more"
+    },
+    "level3": {
+      "age": "Ages 13-14",
+      "title": "Machine Learning Foundations",
+      "description": "Understanding how machines learn and creating intelligent applications"
+    },
+    "level4": {
+      "age": "Ages 15-16",
+      "title": "Advanced AI Development",
+      "description": "Deep learning, neural networks, and real-world AI implementation"
+    },
+    "level5": {
+      "age": "Ages 17-18",
+      "title": "AI Innovation & Real-world Projects",
+      "description": "Capstone projects addressing real challenges with AI solutions"
+    },
+    "learnMore": "Learn More"
+  },
+  "howItWorks": {
+    "title": "How KCL Works",
+    "step1": {
+      "title": "Free Assessment",
+      "description": "Evaluate your child's current skills and interests through our free consultation"
+    },
+    "step2": {
+      "title": "Personalised Learning Plan",
+      "description": "Matched to the appropriate level and learning style based on assessment results"
+    },
+    "step3": {
+      "title": "Interactive Classes",
+      "description": "Weekly in-person sessions at our learning centres with hands-on projects"
+    },
+    "step4": {
+      "title": "Online Support",
+      "description": "Access to resources, practice projects, and mentorship through our online platform"
+    },
+    "step5": {
+      "title": "Portfolio Building",
+      "description": "Showcase projects, earn certifications, and track progress throughout the journey"
+    },
+    "getStarted": "Get Started Today"
+  },
+  "centres": {
+    "title": "Find a KCL Centre Near You",
+    "viewCentre": "View Centre",
+    "bookTour": "Book Tour",
+    "viewAll": "View All Centres"
+  },
+  "studentShowcase": {
+    "title": "Inspiring Student Projects",
+    "age": "Age",
+    "exploreMore": "Explore More Projects"
+  },
+  "testimonials": {
+    "title": "What Parents Say About KCL",
+    "testimonial1": {
+      "quote": "Since joining KCL, my daughter's confidence in technology has soared. She's now creating her own AI projects and talks about becoming an AI engineer!",
+      "author": "Sarah M., London",
+      "role": "Parent of Level 2 Student"
+    },
+    "testimonial2": {
+      "quote": "The instructors are fantastic. They make complex AI concepts accessible and fun for young learners. Best investment in my son's education.",
+      "author": "James T., Manchester",
+      "role": "Parent of Level 3 Student"
+    },
+    "testimonial3": {
+      "quote": "KCL doesn't just teach coding – they teach creativity and problem-solving. My child is thinking differently about the world.",
+      "author": "Priya S., Birmingham",
+      "role": "Parent of Level 1 Student"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": {
+      "question": "What age can my child start?",
+      "answer": "We welcome students from age 4 (Pre-Level 0) through to age 18 (Level 5). Each level is carefully designed for specific age groups and skill levels."
+    },
+    "q2": {
+      "question": "Do they need prior coding experience?",
+      "answer": "No! Our curriculum starts from the very basics and progresses systematically. We have levels for complete beginners through to advanced students."
+    },
+    "q3": {
+      "question": "What's the class format?",
+      "answer": "Primary focus on in-person classes at our centres, with small groups (max 12 students) for personalized attention. Classes are supplemented with online resources."
+    },
+    "q4": {
+      "question": "How much does it cost?",
+      "answer": "Our term-time programmes range from £399 to £699 per term depending on the level. Contact us for detailed pricing and available discounts."
+    },
+    "viewAllFAQs": "View All FAQs"
+  },
+  "cta": {
+    "title": "Ready to Start Your Child's AI Journey?",
+    "subtitle": "Join thousands of students already learning with KCL",
+    "bookTrial": "Book a Free Trial Class",
+    "downloadGuide": "Download Course Guide",
+    "disclaimer": "No commitment required. Experience a real KCL class for free."
+  },
+  "latestNews": {
+    "title": "Latest from KCL",
+    "readMore": "Read More",
+    "visitBlog": "Visit Our Blog"
+  },
+  "footer": {
+    "aboutKCL": "About KCL",
+    "programmes": "Programmes",
+    "admissions": "Admissions",
+    "resources": "Resources",
+    "contact": "Contact",
+    "ourStory": "Our Story",
+    "philosophy": "Our Philosophy",
+    "team": "Our Team",
+    "careers": "Careers",
+    "news": "News & Press",
+    "courseOverview": "Course Overview",
+    "sampleLessons": "Sample Lessons",
+    "howToEnrol": "How to Enrol",
+    "tuitionFees": "Tuition & Fees",
+    "openDays": "Open Days",
+    "faqs": "FAQs",
+    "parentGuide": "Parent Guide",
+    "studentPortal": "Student Portal",
+    "learningResources": "Learning Resources",
+    "community": "Community",
+    "findCentre": "Find a Centre",
+    "contactForm": "Contact Form",
+    "support": "Support",
+    "partnerships": "Partnerships",
+    "copyright": "© 2025 KCL (KaiChuangLi). All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "cookiePolicy": "Cookie Policy",
+    "sitemap": "Sitemap"
+  }
+}
+
+
