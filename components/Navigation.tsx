@@ -25,6 +25,7 @@ export default function Navigation({ locale }: NavigationProps) {
   }, []);
 
   const navItems = [
+    { label: t('home'), href: `/${locale}` },
     { label: t('aboutUs'), href: `/${locale}/about` },
     { label: t('curriculum'), href: `/${locale}/curriculum` },
     { label: t('learningCentres'), href: `/${locale}/centres` },
@@ -55,7 +56,7 @@ export default function Navigation({ locale }: NavigationProps) {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-1">
-            {navItems.slice(0, 5).map((item) => (
+            {navItems.slice(0, 6).map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
@@ -133,5 +134,6 @@ export default function Navigation({ locale }: NavigationProps) {
     </nav>
   );
 }
+
 
 

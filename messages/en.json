@@ -1,5 +1,6 @@
 {
   "nav": {
+    "home": "Home",
     "aboutUs": "About Us",
     "curriculum": "Curriculum",
     "learningCentres": "Learning Centres",
@@ -37,36 +38,48 @@
     }
   },
   "learningJourney": {
-    "title": "Your Child's AI Learning Journey",
+    "title": "Curriculum System",
     "preLevel0": {
-      "age": "Ages 4-6",
-      "title": "AI Awareness & Digital Literacy",
-      "description": "Introduction to AI concepts through stories, games, and creative activities"
+      "duration": "20h×4",
+      "title": "Pre-Level 0",
+      "aiLearningContent": "Open the door to AI through fun interactions, helping children understand the intelligent world through play",
+      "aiMasteryDegree": "Build foundational AI awareness",
+      "projectGains": ["Experience diverse AI creative tools", "Create short videos and audio projects"]
     },
     "level1": {
-      "age": "Ages 7-9",
-      "title": "Fundamentals of AI & Coding Basics",
-      "description": "Building foundation in computational thinking and simple AI tools"
+      "duration": "135h",
+      "title": "Level 1",
+      "aiLearningContent": "Master mainstream AI tools and develop innovative thinking with practical skills",
+      "aiMasteryDegree": "Proficient use of AI tools",
+      "projectGains": ["Create complete AI projects independently", "Build solid technical foundation"]
     },
     "level2": {
-      "age": "Ages 10-12",
-      "title": "AI Tools & Creative Applications",
-      "description": "Exploring AI-powered creativity through image generation, chatbots, and more"
+      "duration": "135h",
+      "title": "Level 2",
+      "aiLearningContent": "Deep dive into AI application development and cultivate systematic project thinking",
+      "aiMasteryDegree": ["Master comprehensive AI applications", "Develop project management mindset"],
+      "projectGains": ["Develop practical AI applications", "Gain competitive advantage for university"]
     },
     "level3": {
-      "age": "Ages 13-14",
-      "title": "Machine Learning Foundations",
-      "description": "Understanding how machines learn and creating intelligent applications"
+      "duration": "135h",
+      "title": "Level 3",
+      "aiLearningContent": "Independently design and develop AI projects, creating personalized intelligent applications",
+      "aiMasteryDegree": ["AI product design & development", "Full project lifecycle management"],
+      "projectGains": ["Complete impactful AI projects", "Gain internationally recognized qualifications"]
     },
     "level4": {
-      "age": "Ages 15-16",
-      "title": "Advanced AI Development",
-      "description": "Deep learning, neural networks, and real-world AI implementation"
+      "duration": "135h",
+      "title": "Level 4",
+      "aiLearningContent": "From concept to reality, bringing AI products to market",
+      "aiMasteryDegree": ["Product innovation & implementation", "Market insight capabilities"],
+      "projectGains": ["Build real products with users", "Gain business experience"]
     },
     "level5": {
-      "age": "Ages 17-18",
-      "title": "AI Innovation & Real-world Projects",
-      "description": "Capstone projects addressing real challenges with AI solutions"
+      "duration": "135h",
+      "title": "Level 5",
+      "aiLearningContent": "Achieve commercial AI operations, cultivating entrepreneurial spirit and leadership",
+      "aiMasteryDegree": ["Business operations", "Team collaboration & leadership"],
+      "projectGains": ["Create commercial value", "Establish sustainable revenue model"]
     },
     "learnMore": "Learn More"
   },
@@ -187,5 +200,6 @@
     "sitemap": "Sitemap"
   }
 }
+
 
 

@@ -14,54 +14,66 @@ export default function LearningJourneySection() {
     {
       icon: Baby,
       level: 'Pre-Level 0',
-      age: t('preLevel0.age'),
+      duration: t('preLevel0.duration'),
       title: t('preLevel0.title'),
-      description: t('preLevel0.description'),
+      aiLearningContent: t('preLevel0.aiLearningContent'),
+      aiMasteryDegree: t('preLevel0.aiMasteryDegree'),
+      projectGains: t.raw('preLevel0.projectGains'),
       color: 'from-pink-400 to-pink-500',
       bgColor: 'bg-pink-50',
     },
     {
       icon: UsersIcon,
       level: 'Level 1',
-      age: t('level1.age'),
+      duration: t('level1.duration'),
       title: t('level1.title'),
-      description: t('level1.description'),
+      aiLearningContent: t('level1.aiLearningContent'),
+      aiMasteryDegree: t('level1.aiMasteryDegree'),
+      projectGains: t.raw('level1.projectGains'),
       color: 'from-blue-400 to-blue-500',
       bgColor: 'bg-blue-50',
     },
     {
       icon: Brain,
       level: 'Level 2',
-      age: t('level2.age'),
+      duration: t('level2.duration'),
       title: t('level2.title'),
-      description: t('level2.description'),
+      aiLearningContent: t('level2.aiLearningContent'),
+      aiMasteryDegree: t.raw('level2.aiMasteryDegree'),
+      projectGains: t.raw('level2.projectGains'),
       color: 'from-green-400 to-green-500',
       bgColor: 'bg-green-50',
     },
     {
       icon: Code,
       level: 'Level 3',
-      age: t('level3.age'),
+      duration: t('level3.duration'),
       title: t('level3.title'),
-      description: t('level3.description'),
+      aiLearningContent: t('level3.aiLearningContent'),
+      aiMasteryDegree: t.raw('level3.aiMasteryDegree'),
+      projectGains: t.raw('level3.projectGains'),
       color: 'from-purple-400 to-purple-500',
       bgColor: 'bg-purple-50',
     },
     {
       icon: Cpu,
       level: 'Level 4',
-      age: t('level4.age'),
+      duration: t('level4.duration'),
       title: t('level4.title'),
-      description: t('level4.description'),
+      aiLearningContent: t('level4.aiLearningContent'),
+      aiMasteryDegree: t.raw('level4.aiMasteryDegree'),
+      projectGains: t.raw('level4.projectGains'),
       color: 'from-orange-400 to-orange-500',
       bgColor: 'bg-orange-50',
     },
     {
       icon: Lightbulb,
       level: 'Level 5',
-      age: t('level5.age'),
+      duration: t('level5.duration'),
       title: t('level5.title'),
-      description: t('level5.description'),
+      aiLearningContent: t('level5.aiLearningContent'),
+      aiMasteryDegree: t.raw('level5.aiMasteryDegree'),
+      projectGains: t.raw('level5.projectGains'),
       color: 'from-red-400 to-red-500',
       bgColor: 'bg-red-50',
     },
@@ -80,6 +92,9 @@ export default function LearningJourneySection() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {levels.map((level, index) => {
             const Icon = level.icon;
+            const masteryArray = Array.isArray(level.aiMasteryDegree) ? level.aiMasteryDegree : [level.aiMasteryDegree];
+            const gainsArray = Array.isArray(level.projectGains) ? level.projectGains : [level.projectGains];
+            
             return (
               <div
                 key={index}
@@ -90,22 +105,48 @@ export default function LearningJourneySection() {
                     <Icon className="text-white" size={28} />
                   </div>
                   <span className="text-sm font-semibold text-gray-600 bg-white px-3 py-1 rounded-full">
-                    {level.age}
+                    {level.duration}
                   </span>
                 </div>
 
-                <div className="mb-2">
-                  <div className="text-sm font-bold text-primary-600 mb-1">
-                    {level.level}
-                  </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">
+                <div className="mb-4">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">
                     {level.title}
                   </h3>
                 </div>
 
-                <p className="text-gray-700 mb-6 leading-relaxed">
-                  {level.description}
-                </p>
+                <div className="space-y-4 mb-6">
+                  <div>
+                    <p className="text-sm font-semibold text-primary-600 mb-1">AI学习内容：</p>
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      {level.aiLearningContent}
+                    </p>
+                  </div>
+
+                  <div>
+                    <p className="text-sm font-semibold text-primary-600 mb-1">AI掌握程度：</p>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      {masteryArray.map((item, idx) => (
+                        <li key={idx} className="flex items-start">
+                          <span className="mr-2">•</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <div>
+                    <p className="text-sm font-semibold text-primary-600 mb-1">项目收获：</p>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      {gainsArray.map((item, idx) => (
+                        <li key={idx} className="flex items-start">
+                          <span className="mr-2">•</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
 
                 <Link
                   href={`/${locale}/curriculum/${level.level.toLowerCase().replace(' ', '-')}`}
@@ -142,5 +183,6 @@ export default function LearningJourneySection() {
     </section>
   );
 }
+
 
 

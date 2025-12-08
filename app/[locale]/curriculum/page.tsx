@@ -277,3 +277,4 @@ export default function CurriculumPage({ params: { locale } }: { params: { local
 }
 
 
+

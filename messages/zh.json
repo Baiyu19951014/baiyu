@@ -1,5 +1,6 @@
 {
   "nav": {
+    "home": "首页",
     "aboutUs": "关于我们",
     "curriculum": "课程体系",
     "learningCentres": "学习中心",
@@ -37,36 +38,48 @@
     }
   },
   "learningJourney": {
-    "title": "孩子的AI学习之旅",
+    "title": "课程体系",
     "preLevel0": {
-      "age": "4-6岁",
-      "title": "AI认知与数字素养",
-      "description": "通过故事、游戏和创意活动介绍AI概念"
+      "duration": "20h×4",
+      "title": "Pre-Level 0 预备级",
+      "aiLearningContent": "通过趣味互动开启AI认知之门，让孩子在玩乐中理解智能世界",
+      "aiMasteryDegree": "建立AI基础认知",
+      "projectGains": ["体验多种AI创作工具", "完成创意短视频、音频作品"]
     },
     "level1": {
-      "age": "7-9岁",
-      "title": "AI基础与编程入门",
-      "description": "建立计算思维基础，学习简单AI工具"
+      "duration": "135h",
+      "title": "Level 1 一级",
+      "aiLearningContent": "掌握主流AI工具应用，培养创新思维与实践能力",
+      "aiMasteryDegree": "熟练运用AI工具",
+      "projectGains": ["独立创作完整AI作品", "打下扎实技术基础"]
     },
     "level2": {
-      "age": "10-12岁",
-      "title": "AI工具与创意应用",
-      "description": "通过图像生成、聊天机器人等探索AI创造力"
+      "duration": "135h",
+      "title": "Level 2 二级",
+      "aiLearningContent": "深入学习AI应用开发，培养系统化项目思维",
+      "aiMasteryDegree": ["掌握AI综合应用", "具备项目管理思维"],
+      "projectGains": ["开发实用AI应用产品", "为升学增添竞争优势"]
     },
     "level3": {
-      "age": "13-14岁",
-      "title": "机器学习基础",
-      "description": "理解机器如何学习，创建智能应用"
+      "duration": "135h",
+      "title": "Level 3 三级",
+      "aiLearningContent": "具备独立设计开发AI项目的能力，创造个性化智能应用",
+      "aiMasteryDegree": ["AI产品设计与开发", "项目全流程管理"],
+      "projectGains": ["完成有影响力的AI项目", "获得国际名校认可资质"]
     },
     "level4": {
-      "age": "15-16岁",
-      "title": "高级AI开发",
-      "description": "深度学习、神经网络和实际AI实现"
+      "duration": "135h",
+      "title": "Level 4 四级",
+      "aiLearningContent": "从创意到落地，实现AI产品的市场化应用",
+      "aiMasteryDegree": ["产品创新与实现", "市场洞察能力"],
+      "projectGains": ["打造有用户的真实产品", "积累商业实战经验"]
     },
     "level5": {
-      "age": "17-18岁",
-      "title": "AI创新与实战项目",
-      "description": "用AI解决方案应对真实挑战的顶点项目"
+      "duration": "135h",
+      "title": "Level 5 五级",
+      "aiLearningContent": "实现AI项目商业化运营，培养企业家精神与领导力",
+      "aiMasteryDegree": ["商业化运营", "团队协作与领导"],
+      "projectGains": ["创造商业价值", "建立可持续收益模式"]
     },
     "learnMore": "了解更多"
   },
@@ -187,5 +200,6 @@
     "sitemap": "网站地图"
   }
 }
+
 
 
